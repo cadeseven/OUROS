@@ -25,6 +25,7 @@ function draw() {
   background(256, 256, 256);
   normalMaterial(100, 200, 150);
   orbitControl();
+  rotateY(angle);
   model(snake);
   angle += .01;
 }
