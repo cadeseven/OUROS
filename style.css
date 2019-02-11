@@ -1,0 +1,122 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4px 4px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.column {
+  flex: 25%;
+  max-width: 33.3%;
+  padding: 20px 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  max-width: 100%;
+  column-span: 2;
+}
+
+@font-face {
+  font-family: 'Inconsolata', monospace;
+}
+
+.img {
+  float: left;
+  display: inline-block;
+}
+
+nav {
+  width: 100%;
+  margin-top: 40px;
+  font-family: 'Inconsoloata', monospace;
+  font-size: 15px;
+  text-align: center;
+  margin: 0 auto;
+  display: inline-block;
+  word-spacing: 15px;
+  letter-spacing: 2px;
+}
+
+#spinsnake {
+  display: inline-block;
+
+}
+
+
+
+
+#about {
+  font-family: 'Inconsoloata', monospace;
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 10%
+}
+
+#cade {
+  font-size: 40px;
+  font-family: HelveticaNeue;
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-style: italic;
+  display: inline-block;
+  word-spacing: 15px;
+
+}
+
+#video {
+  margin-top: 40px;
+  position: fixed;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#logo {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: pink;
+}
+
+
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+#my-store-16334196 {
+  margin-top: 10%;
+}
